@@ -43,6 +43,11 @@
                         "scripts": []
                     },
                     "configurations": {
+                        "fr": {
+                            "localize": [
+                                "fr"
+                            ]
+                        },
                         "production": {
                             "budgets": [
                                 {
@@ -78,6 +83,9 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
+                        "fr": {
+                            "browserTarget": "angular-i18n-demo:build:fr"
+                        },
                         "production": {
                             "browserTarget": "angular-i18n-demo:build:production"
                         },
